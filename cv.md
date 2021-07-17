@@ -17,3 +17,11 @@ I make it my goal to create software with the user in mind, creating web-sites w
 I also understand the importance of creating highly readable and easily maintainable source code.
 
 I am constantly striving to learn new technologies and look to ways to better myself in this rapidly changing industry.
+
+## Technical Skills
+
+**Languages:** _JavaScript; SQL; HTML; Pascal_
+
+**Databases:** _MS Access_
+
+**Development Software:** _Git_
