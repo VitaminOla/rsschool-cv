@@ -139,6 +139,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  text-align: left;
 }
 .about p {
   color: #333333;
@@ -161,6 +162,16 @@ h2 {
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
+}
+
+.about ul li {
+  position: relative;
+  list-style: none;
+  margin: 5px 0;
+  cursor: pointer;
+}
+code {
+  font-family: monospace;
 }
 
 footer {
