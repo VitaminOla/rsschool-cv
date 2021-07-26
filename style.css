@@ -17,16 +17,19 @@ body {
 header {
   flex: 0 0 auto;
   padding-top: 10px;
-  color: #ffffff;
+  color: #003147;
 }
-
+nav {
+  color: #ffffff;
+  font-weight: 300;
+}
 .container {
   position: relative;
   width: 100%;
   max-width: 1000px;
   min-height: 1000px;
   background: #ffffff;
-  margin: 50px;
+  margin: 10px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   flex: 1 0 auto;
@@ -75,7 +78,7 @@ h2 {
   margin: 0;
 }
 .contactInfo {
-  padding-top: 40px;
+  padding-top: 30px;
 }
 .title {
   color: #ffffff;
@@ -104,6 +107,23 @@ h2 {
   color: #ffffff;
   font-weight: 300;
   font-size: 0.9em;
+}
+
+.education li {
+  margin-bottom: 25px;
+}
+.education h5 {
+  color: #03a9f4;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.education h4:nth-child(2) {
+  color: #ffffff;
+  font-weight: 600;
+}
+.education h4 {
+  color: #ffffff;
+  font-weight: 100;
 }
 
 .container .right_Side {
