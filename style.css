@@ -173,7 +173,14 @@ h2 {
 code {
   font-family: monospace;
 }
-
+a {
+  text-decoration: none;
+  color: #003147;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
 footer {
   flex: 0 0 auto;
   padding-bottom: 10px;
