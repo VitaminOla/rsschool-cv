@@ -131,6 +131,38 @@ h2 {
   padding: 40px;
 }
 
+.about {
+  margin-bottom: 50px;
+}
+.title2 {
+  color: #003147;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+.about p {
+  color: #333333;
+  line-height: 1.2em;
+  padding-bottom: 10px;
+}
+.about .box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .year_company {
+  min-width: 160px;
+}
+.about .box .year_company h5 {
+  text-transform: uppercase;
+  color: #848c90;
+}
+.about .box .text h4 {
+  text-transform: uppercase;
+  color: #2a7da2;
+  font-size: 16px;
+}
+
 footer {
   flex: 0 0 auto;
   padding-bottom: 10px;
