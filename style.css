@@ -10,7 +10,16 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  flex-direction: column;
+  height: 100%;
 }
+
+header {
+  flex: 0 0 auto;
+  padding-top: 10px;
+  color: #ffffff;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -20,6 +29,7 @@ body {
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  flex: 1 0 auto;
 }
 .container .left_Side {
   position: relative;
@@ -69,4 +79,9 @@ h2 {
   position: relative;
   background: #ffffff;
   padding: 40px;
+}
+
+footer {
+  flex: 0 0 auto;
+  padding-bottom: 10px;
 }
