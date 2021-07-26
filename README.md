@@ -1,1 +1,1 @@
-https://VitaminOla.github.io/rsschool-cv/cv
+https://VitaminOla.github.io/rsschool-cv/
