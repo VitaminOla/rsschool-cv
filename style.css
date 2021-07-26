@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Tahoma, sans-serif;
+  font-family: Arial, sans-serif;
 }
 body {
   background: #add8e6;
@@ -23,11 +23,15 @@ nav {
   color: #ffffff;
   font-weight: 300;
 }
+section {
+  margin: 0;
+  padding: 0;
+}
 .container {
   position: relative;
   width: 100%;
   max-width: 1000px;
-  min-height: 1000px;
+  min-height: 900px;
   background: #ffffff;
   margin: 10px;
   display: grid;
@@ -37,7 +41,7 @@ nav {
 .container .left_Side {
   position: relative;
   background: #003147;
-  padding: 40px;
+  padding: 20px;
 }
 .profileText {
   position: relative;
@@ -49,8 +53,8 @@ nav {
 }
 .profileText .imgBox {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -67,7 +71,7 @@ h2 {
   font-size: 1.3em;
   font-weight: 600;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 10px;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.4em;
@@ -78,7 +82,7 @@ h2 {
   margin: 0;
 }
 .contactInfo {
-  padding-top: 30px;
+  padding: 20px 20px 0px 20px;
 }
 .title {
   color: #ffffff;
@@ -86,7 +90,6 @@ h2 {
   font-size: 1.1em;
   font-weight: 300;
   letter-spacing: 1px;
-  margin-bottom: 20px;
 }
 .contactInfo ul {
   position: relative;
@@ -94,7 +97,7 @@ h2 {
 .contactInfo ul li {
   position: relative;
   list-style: none;
-  margin: 10px 0;
+  margin: 5px 0;
   cursor: pointer;
 }
 .contactInfo ul li .icon {
@@ -109,21 +112,17 @@ h2 {
   font-size: 0.9em;
 }
 
-.education li {
-  margin-bottom: 25px;
-}
-.education h5 {
+.contactInfo.education h5 {
   color: #03a9f4;
   font-weight: 300;
   letter-spacing: 1px;
 }
-.education h4:nth-child(2) {
-  color: #ffffff;
-  font-weight: 600;
-}
-.education h4 {
+
+.contactInfo.education h4 {
   color: #ffffff;
   font-weight: 100;
+  font-size: 0.9em;
+  padding-bottom: 10px;
 }
 
 .container .right_Side {
